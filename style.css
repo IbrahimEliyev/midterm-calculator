@@ -94,19 +94,19 @@ body {
   height: 100vh;
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #333; /* Dark background for the calculator */
+  background-color: #333; 
 }
 
 .calculator {
-  width: 400px; /* Adjusted width for better appearance */
+  width: 400px; 
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-  background-color: #444; /* Darker background for the calculator body */
+  background-color: #444; 
 }
 
 .display {
-  background-color: #222; /* Dark color for display area */
-  color: #fff; /* White text color for visibility */
+  background-color: #222; 
+  color: #fff; 
   padding: 20px;
   font-size: 2rem;
   text-align: right;
@@ -115,14 +115,14 @@ body {
 }
 
 .operation-display {
-  font-size: 1.5rem; /* Smaller size for operation display */
-  opacity: 0.7; /* To make it distinct from result display */
+  font-size: 1.5rem; 
+  opacity: 0.7; 
 }
 
 .buttons {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 10px; /* Increased gap between buttons */
+  gap: 10px; 
   padding: 10px;
 }
 
@@ -131,30 +131,30 @@ body {
   font-size: 1.5rem;
   border: none;
   cursor: pointer;
-  border-radius: 50%; /* Round buttons */
-  transition: background-color 0.3s, transform 0.2s; /* Added transform for click effect */
+  border-radius: 50%; 
+  transition: background-color 0.3s, transform 0.2s; 
 }
 
 .number {
-  background-color: #e0e0e0; /* Light gray for number buttons */
-  color: #333; /* Dark text for number buttons */
+  background-color: #e0e0e0; 
+  color: #333; 
 }
 
 .operator {
-  background-color: #5bc0de; /* Aqua color for operator buttons */
+  background-color: #5bc0de; 
   color: white;
 }
 
 .button:active {
-  background-color: #ccc; /* Light gray on press for number buttons */
-  transform: scale(0.95); /* Slightly smaller on press */
+  background-color: #ccc; 
+  transform: scale(0.95); 
 }
 
 .operator:active {
-  background-color: #46b2d6; /* Darker aqua on press for operator buttons */
-  transform: scale(0.95); /* Slightly smaller on press */
+  background-color: #46b2d6; 
+  transform: scale(0.95); 
 }
 
 .container .calc-area .keyboard .key.num {
   background-color: #F8F8F8;
-}/*# sourceMappingURL=style.css.map */
+}
